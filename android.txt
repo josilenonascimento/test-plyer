@@ -1,0 +1,3 @@
+title=Test Plyer
+author=Josileno Bezerra do Nascimento
+orientation=portrait

@@ -1,0 +1,23 @@
+<RootWidget>:
+	
+	orientation: "vertical"
+
+	TextInput:
+		text: root.data
+
+	BoxLayout:
+		
+		Button:
+			text: "Vibrate"
+			on_press: root.vibrate()
+
+		Button:
+			text: "Notify"
+			on_press: root.notify()
+
+		Button:
+			text: "Status Battery"
+			on_press: root.battery()
+
+RootWidget:
+
